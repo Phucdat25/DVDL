@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dịch vụ cho thuê xe du lịch 4–7 chỗ</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#gioi-thieu">Trang chủ</a>
+    <a href="#danh-sach-xe">Xe cho thuê</a>
+    <a href="bang-gia.html">Bảng giá</a>
+    <a href="#lien-he">Liên hệ</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="slider">
+      <div class="slides">
+        <img src="https://th.bing.com/th/id/R.a7ac70639a8361ab3abf841104630ed2?rik=fyKZCLqK6ErRqw&riu=http%3a%2f%2fdongnaitires.com%2fupload%2fbaiviet%2fmitsubishixpander323191595230270-6115.jpeg&ehk=WRSa%2fWauESpzZ4wmECiQ15kF23FpqWQh8DQXWZQxK3s%3d&risl=&pid=ImgRaw&r=0" alt="Xe du lịch 1"/>
+        <img src="https://s1.paultan.org/image/2020/11/Mitsubishi-Xpander-OTR-1200x708.jpg" alt="Xe du lịch 2"/>
+        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_683/https://www.dsf.my/wp-content/uploads/2024/02/Mitsubishi-Xpander-HEV-Xpander-Cross-HEV-1-1024x683.jpeg" alt="Xe du lịch 3"/>
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+      <div class="overlay">
+        <h1>Dịch vụ du lịch Hoàng Ân</h1>
+        <p>Xe đời mới, tài xế chuyên nghiệp, phục vụ 24/7</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Giới thiệu -->
+  <section id="gioi-thieu" class="fade-in">
+    <h2>Dịch vụ cho thuê xe du lịch Hoàng Ân</h2>
+    <p>Chúng tôi cung cấp dịch vụ cho thuê xe du lịch 4–7 chỗ đời mới, sạch sẽ, với đội ngũ tài xế giàu kinh nghiệm, thân thiện. Phục vụ các chuyến du lịch, công tác, đưa đón sân bay với giá cả hợp lý.</p>
+  </section>
+
+
+  <!-- Booking Form (Hiển thị trực tiếp) -->
+  <section id="dat-xe" class="fade-in">
+    <h2>Đặt xe ngay</h2>
+    <form class="booking-form" action="https://formspree.io/f/mdklparz" method="POST">
+  <div class="form-illustration">
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/car-booking-1616409-1370823.png" alt="Car Booking">
+  </div>
+  <div class="form-fields">
+    <input type="text" name="name" placeholder="Họ và tên" required>
+    <input type="tel" name="phone" placeholder="Số điện thoại" required>
+    <select name="type" required>
+      <option value="">Chọn loại xe</option>
+      <option value="4-chỗ">Xe 4 chỗ</option>
+      <option value="7-chỗ">Xe 7 chỗ</option>
+    </select>
+    <input type="date" name="date" required>
+    <input type="time" name="time" required>
+    <textarea name="note" placeholder="Ghi chú thêm"></textarea>
+    <button type="submit">Gửi yêu cầu</button>
+  </div>
+</form>
+  </section>
+
+  <!-- Xe cho thuê -->
+  <section id="danh-sach-xe" class="fade-in">
+    <h2>Xe cho thuê</h2>
+    <div class="cars">
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="Xe 4 chỗ">
+        <h3>Xe 4 chỗ</h3>
+        <p>Phù hợp cho gia đình nhỏ hoặc nhóm bạn ít người. Giá từ 800.000đ/ngày.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Xe 7 chỗ">
+        <h3>Xe 7 chỗ</h3>
+        <p>Rộng rãi, thoải mái cho nhóm đông người hoặc đi xa. Giá từ 1.200.000đ/ngày.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="lien-he" class="fade-in">
+    <h2>Liên hệ</h2>
+    <p>📞 0901 234 567</p>
+    <p>✉️ contact@thuexedulich.com</p>
+    <p>🏠 xã Phú Hựu, tỉnh Đồng Tháp</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d993.3887627823646!2d105.85127688731254!3d10.267511767661034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1756953302631!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dịch vụ cho thuê xe du lịch. All rights reserved.</p>
+  </footer>
+
+  <!-- Floating Social Icons -->
+  <div class="floating-social">
+    <a href="https://zalo.me/0901234567" target="_blank" title="Zalo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" style="height:32px;width:32px;">
+    </a>
+    <a href="https://facebook.com/thuexedulich" target="_blank" title="Facebook">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="height:32px;width:32px;">
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
